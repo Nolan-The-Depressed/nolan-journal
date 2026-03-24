@@ -1,0 +1,22 @@
+# Work Journal - 2026-03-24 (Tuesday)
+
+## Smile.io Leads Pipeline
+- Built new automated pipeline: StoreLead API → ICP Scoring → Notion Database
+- Flow: Weekly cron (Mon 8AM) pulls Smile.io stores → diffs vs previous week → scores ICP → pushes new installs to Notion
+- Baseline seeded: 4,800 stores across 24 countries (US/CA/UK/AU/NZ/JP/TW/HK + EU)
+- Filter: Shopify + Smile.io, revenue >$20K/mo
+- ICP Tiers: Tier 1 Hot ($100K+ or Plus+$50K), Tier 2 Warm ($50K+ or Plus or 2+ tools), Tier 3 Standard
+- Notion DB live with full outreach status tracking
+- Script: scripts/smile-leads-pipeline/smile_leads.py
+- First weekly report: 31/03
+
+## StoreLead Segment Bot (with Nolan)
+- Iterated segment_bot.py v1→v4 for Store Leads API Telegram bot
+- Commands: /smile, /whales, /growers, /switch, /fresh, /segment, /export
+- Debugging Smile.io scan filters
+
+## Team Task Assignment (by Toby)
+- Nolan: Chatty product knowledge, GTM plan April, competitor analysis (deadline 07/04)
+- Daniel: Portfolio management automation, document workflows/skills playbook
+- Damian: Joy paying customer research for upsell/cross-sell
+- Weekly reports: Mon 9AM in group chat
